@@ -1,5 +1,5 @@
 ///<reference types="@cypress/xpath"/>
-
+///<reference types="Cypress"/>
 const { it } = require("mocha");
 
 describe('test suite', () => {

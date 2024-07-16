@@ -1,4 +1,4 @@
-class Logout_po{
+class logout_po{
 
     visiturl(){
 

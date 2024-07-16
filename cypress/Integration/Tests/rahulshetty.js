@@ -34,6 +34,7 @@ it('drop down test', () => {
 // dynamic dropdown
 it('dynamic drop down/Suggestion class tests', () => {
     cy.visit('https://rahulshettyacademy.com/AutomationPractice/');
+    
     cy.get(".ui-autocomplete-input").type('ind');
     cy.get(".ui-menu-item").each(($el,index,$list) =>{
         if($el.text()=='India'){

@@ -1,4 +1,4 @@
-///<reference types="Cypress"/>
+///<reference types="cypress"/>
 describe('test suite', () => {
     it('products', () => {
 
